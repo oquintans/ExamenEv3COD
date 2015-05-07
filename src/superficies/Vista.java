@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  * Clase para pedir y calcular datos
+ * N.A. todo los metodos de calcular devuelven el area calculada a parte de modificar los valores del objeto recibido. 
  * @author oquintansocampo
  */
 public class Vista {
