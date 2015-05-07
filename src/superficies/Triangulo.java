@@ -6,7 +6,7 @@
 package superficies;
 
 /**
- *
+ * Clase modelo para instanciar triangulos
  * @author oquintansocampo
  */
 public class Triangulo {
@@ -38,7 +38,7 @@ public class Triangulo {
 
     /**
      *
-     * @return
+     * @return base
      */
     public float getBase() {
         return base;
@@ -54,7 +54,7 @@ public class Triangulo {
 
     /**
      *
-     * @return
+     * @return altura
      */
     public float getAltura() {
         return altura;
@@ -70,7 +70,7 @@ public class Triangulo {
 
     /**
      *
-     * @return
+     * @return area
      */
     public float getArea() {
         return area;

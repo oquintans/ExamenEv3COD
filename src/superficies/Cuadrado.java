@@ -6,7 +6,7 @@
 package superficies;
 
 /**
- *
+ * Clase modelo para instanciar cuadrados
  * @author oquintansocampo
  */
 public class Cuadrado {
@@ -34,7 +34,7 @@ public class Cuadrado {
 
     /**
      *
-     * @return
+     * @return lado
      */
     public float getLado() {
         return lado;
@@ -50,7 +50,7 @@ public class Cuadrado {
 
     /**
      *
-     * @return
+     * @return area
      */
     public float getArea() {
         return area;

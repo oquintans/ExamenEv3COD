@@ -6,7 +6,7 @@
 package superficies;
 
 /**
- *
+ * Clase modelo para instanciar rectangulos
  * @author oquintansocampo
  */
 public class Rectangulo {
@@ -38,7 +38,7 @@ public class Rectangulo {
 
     /**
      *
-     * @return
+     * @return alto
      */
     public float getAlto() {
         return alto;
@@ -54,7 +54,7 @@ public class Rectangulo {
 
     /**
      *
-     * @return
+     * @return largo
      */
     public float getLargo() {
         return largo;
@@ -70,7 +70,7 @@ public class Rectangulo {
 
     /**
      *
-     * @return
+     * @return area
      */
     public float getArea() {
         return area;

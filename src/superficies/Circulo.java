@@ -1,13 +1,7 @@
 package superficies;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- *
+ * Clase modelo para instanciar circulos
  * @author oquintansocampo
  */
 public class Circulo {
@@ -35,7 +29,7 @@ public class Circulo {
 
     /**
      *
-     * @return
+     * @return radio
      */
     public float getRadio() {
         return radio;
@@ -51,7 +45,7 @@ public class Circulo {
 
     /**
      *
-     * @return
+     * @return area
      */
     public float getArea() {
         return area;
