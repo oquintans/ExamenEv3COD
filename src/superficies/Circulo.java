@@ -17,26 +17,50 @@ public class Circulo {
     //Area del circulo
     private float area;
 
+    /**
+     *
+     */
     public Circulo() {
     }
 
+    /**
+     *
+     * @param radio
+     * @param area
+     */
     public Circulo(float radio, float area) {
         this.radio = radio;
         this.area = area;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getRadio() {
         return radio;
     }
 
+    /**
+     *
+     * @param radio
+     */
     public void setRadio(float radio) {
         this.radio = radio;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getArea() {
         return area;
     }
 
+    /**
+     *
+     * @param area
+     */
     public void setArea(float area) {
         this.area = area;
     }

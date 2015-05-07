@@ -8,23 +8,27 @@ package superficies;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * Clase para pedir y calcular datos
  * @author oquintansocampo
  */
 public class Vista {
 
+    /**
+     * Metodo para pedir una figura
+     * @return un String con la figura tecleada
+     */
     public String pedirFigura() {
         String respuesta;
-        do {
-            respuesta = JOptionPane.showInputDialog("What shape would you like to find the area of? (square, circle, triangle, rectangle):");
-            if (!"square".equalsIgnoreCase(respuesta) || !"circle".equalsIgnoreCase(respuesta) || !"triangle".equalsIgnoreCase(respuesta) || !"rectangle".equalsIgnoreCase(respuesta)) {
-                JOptionPane.showMessageDialog(null, "Error, no valido.");
-            }
-        } while (!"square".equalsIgnoreCase(respuesta) || !"circle".equalsIgnoreCase(respuesta) || !"triangle".equalsIgnoreCase(respuesta) || !"rectangle".equalsIgnoreCase(respuesta));
+        respuesta = JOptionPane.showInputDialog("What shape would you like to find the area of? (square, circle, triangle, rectangle):");
         JOptionPane.showMessageDialog(null, "You said: " + respuesta);
         return respuesta;
     }
 
+    /**
+     * Metodo para pedir datos y calcular area del cuadrado
+     * @param c objeto de la clase cuadrado
+     * @return area del cuadrado
+     */
     public float calcAreaCuadrado(Cuadrado c) {
         float lado = Float.parseFloat(JOptionPane.showInputDialog("What is the side length?"));
         c.setLado(lado);
@@ -33,6 +37,11 @@ public class Vista {
         return area;
     }
 
+    /**
+     * Metodo para pedir datos y calcular area del rectangulo
+     * @param r objeto de la clase Rectangulo
+     * @return area del rectangulo
+     */
     public float calcAreaRectangulo(Rectangulo r) {
         float alto = Float.parseFloat(JOptionPane.showInputDialog("what is the rectangles width?"));
         float largo = Float.parseFloat(JOptionPane.showInputDialog("what is the rectangles height?"));
@@ -43,6 +52,11 @@ public class Vista {
         return area;
     }
 
+    /**
+     * Metodo para pedir datos y calcular area del triangulo
+     * @param t objeto de la clase Triangulo
+     * @return area del triangulo
+     */
     public float calcAreaTriangulo(Triangulo t) {
         float base = Float.parseFloat(JOptionPane.showInputDialog("What is the base length of the triangle?"));
         float altura = Float.parseFloat(JOptionPane.showInputDialog("What is the height of the triangle?"));
@@ -53,6 +67,11 @@ public class Vista {
         return area;
     }
 
+    /**
+     * Metodo para pedir datos y calcular area del circulo
+     * @param c objeto de la clase Circulo
+     * @return area del circulo
+     */
     public float calcAreaCirculo(Circulo c) {
         float radio = Float.parseFloat(JOptionPane.showInputDialog("What is the radius of the circle?"));
         c.setRadio(radio);

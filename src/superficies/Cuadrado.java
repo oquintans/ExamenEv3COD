@@ -16,26 +16,50 @@ public class Cuadrado {
     //Area del cuadrado
     private float area;
 
+    /**
+     *
+     */
     public Cuadrado() {
     }
 
+    /**
+     *
+     * @param lado
+     * @param area
+     */
     public Cuadrado(float lado, float area) {
         this.lado = lado;
         this.area = area;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getLado() {
         return lado;
     }
 
+    /**
+     *
+     * @param lado
+     */
     public void setLado(float lado) {
         this.lado = lado;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getArea() {
         return area;
     }
 
+    /**
+     *
+     * @param area
+     */
     public void setArea(float area) {
         this.area = area;
     }
