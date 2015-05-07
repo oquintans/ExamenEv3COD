@@ -20,9 +20,9 @@ public class Circulo {
     public Circulo() {
     }
 
-    public Circulo(float radio, float areaC) {
+    public Circulo(float radio, float area) {
         this.radio = radio;
-        this.area = areaC;
+        this.area = area;
     }
 
     public float getRadio() {
@@ -33,12 +33,12 @@ public class Circulo {
         this.radio = radio;
     }
 
-    public float getAreaC() {
+    public float getArea() {
         return area;
     }
 
-    public void setAreaC(float areaC) {
-        this.area = areaC;
+    public void setArea(float area) {
+        this.area = area;
     }
 
 }
