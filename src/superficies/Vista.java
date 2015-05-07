@@ -21,11 +21,11 @@ public class Vista {
                 JOptionPane.showMessageDialog(null, "Error, no valido.");
             }
         } while (!"square".equalsIgnoreCase(respuesta) || !"circle".equalsIgnoreCase(respuesta) || !"triangle".equalsIgnoreCase(respuesta) || !"rectangle".equalsIgnoreCase(respuesta));
+        JOptionPane.showMessageDialog(null, "You said: " + respuesta);
         return respuesta;
     }
 
     public float calcAreaCuadrado(Cuadrado c) {
-        c = new Cuadrado();
         float lado = Float.parseFloat(JOptionPane.showInputDialog("What is the side length?"));
         c.setLado(lado);
         float area = lado * lado;
@@ -34,7 +34,6 @@ public class Vista {
     }
 
     public float calcAreaRectangulo(Rectangulo r) {
-        r = new Rectangulo();
         float alto = Float.parseFloat(JOptionPane.showInputDialog("what is the rectangles width?"));
         float largo = Float.parseFloat(JOptionPane.showInputDialog("what is the rectangles height?"));
         r.setAlto(alto);
@@ -45,7 +44,6 @@ public class Vista {
     }
 
     public float calcAreaTriangulo(Triangulo t) {
-        t = new Triangulo();
         float base = Float.parseFloat(JOptionPane.showInputDialog("What is the base length of the triangle?"));
         float altura = Float.parseFloat(JOptionPane.showInputDialog("What is the height of the triangle?"));
         t.setBase(base);
@@ -56,7 +54,6 @@ public class Vista {
     }
 
     public float calcAreaCirculo(Circulo c) {
-        c = new Circulo();
         float radio = Float.parseFloat(JOptionPane.showInputDialog("What is the radius of the circle?"));
         c.setRadio(radio);
         float area = (float) (Math.PI * (radio * radio));
