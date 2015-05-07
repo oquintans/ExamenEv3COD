@@ -10,9 +10,12 @@ package superficies;
  * @author oquintansocampo
  */
 public class Rectangulo {
-
+    
+    //Altura del Rectangulo
     private float alto;
+    //Ancho o Largo del Rectangulo
     private float largo;
+    //Area del rectangulo
     private float area;
 
     public Rectangulo() {

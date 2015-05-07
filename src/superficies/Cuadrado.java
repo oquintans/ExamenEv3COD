@@ -11,7 +11,9 @@ package superficies;
  */
 public class Cuadrado {
 
+    //Valor del lado del cuadrado
     private float lado;
+    //Area del cuadrado
     private float area;
 
     public Cuadrado() {

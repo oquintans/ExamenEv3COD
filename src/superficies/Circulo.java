@@ -12,7 +12,9 @@ package superficies;
  */
 public class Circulo {
     
+    //Valor del radio del circulo
     private float radio;
+    //Area del circulo
     private float area;
 
     public Circulo() {

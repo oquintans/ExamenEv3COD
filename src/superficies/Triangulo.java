@@ -10,9 +10,12 @@ package superficies;
  * @author oquintansocampo
  */
 public class Triangulo {
-
+    
+    //Base del Triángulo
     private float base;
+    //Altura del Triángulo
     private float altura;
+    //Area del Triángulo
     private float area;
 
     public Triangulo() {
